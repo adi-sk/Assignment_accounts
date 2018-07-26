@@ -10,6 +10,7 @@ public class App {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		BranchSet branch = new BranchSet();
+		//BranchMap branch = new BranchMAp();   same object can be passed to the Transaction class 
 		System.out.println("account will be added under BranchCode: "+branch.branchCode);
 		branch.openNewAccount(AccountType.CURRENT, 100000l,"Aditya Kurhade");
 		branch.openNewAccount(AccountType.SAVINGS, 1234000l, "adi K");
